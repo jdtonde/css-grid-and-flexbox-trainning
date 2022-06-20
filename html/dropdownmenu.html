@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dropdownmenu.css">
+    <title>DropDownMenu</title>
+</head>
+<body>
+    <h1 style="padding:20px">Drop Down Menu</h1>
+
+    <div class="navigation">
+        <div class="userBx">
+            <div class="imgBx">
+                <img src="../img/luffy.jpeg" alt="">  
+            </div>
+            <p class="username">Luffy ONEPIECE</p>
+        </div>
+        <div class="menuToggle"></div>
+        <ul class="menu">
+            <li><a href="#"><ion-icon name="apps-outline"></ion-icon>Tableau de Bord</a></li>
+            <li><a href="#"><ion-icon name="create-outline"></ion-icon>Missions</a></li>
+            <li><a href="#"><ion-icon name="notifications-circle-outline"></ion-icon>Notifications</a></li>
+            <li><a href="#"><ion-icon name="swap-vertical-outline"></ion-icon>Historique</a></li>
+            <li><a href="#"><ion-icon name="person-outline"></ion-icon>Profile</a></li>
+            <li><a href="#"><ion-icon name="log-out-outline"></ion-icon>Se Déconnecter</a></li>
+        </ul>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let menuToggle= document.querySelector('.menuToggle');
+        let navigation= document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

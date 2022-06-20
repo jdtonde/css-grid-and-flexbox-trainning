@@ -1,0 +1,53 @@
+body{
+    background-color: whitesmoke;
+
+}
+h1{
+    color: aliceblue;
+}
+
+ul {
+    background:whitesmoke;
+    
+}
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    justify-content: space-around;
+    align-content: center;
+    border-radius: 15px; 
+    height: 5em;
+    box-shadow: 5px 5px 5px #474545;
+}
+
+ul > li {
+    font-size:xx-large;
+    text-decoration-style: none;
+    list-style-type: none;
+    
+}
+
+.header-container-items {
+    text-decoration:none;
+}
+
+button {
+display: flex;
+align-items: center;
+margin-left: 20em;
+padding: 10px;
+border: 0ch;
+border-radius: 10px;
+font-size: 2em;
+
+}
+
+button:hover{
+    background-color: gray;
+    color: white;
+
+}
+
+
